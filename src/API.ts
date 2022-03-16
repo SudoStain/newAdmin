@@ -1,5 +1,4 @@
 import axios, { AxiosResponse } from 'axios';
-import db from './data.json'
 
 const baseUrl: string = "http://localhost:4000"
 
