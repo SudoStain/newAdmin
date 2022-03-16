@@ -123,8 +123,10 @@ const TableContainer = ({ columns, data }) => {
             onChange={onChangeInInput}
           />
         </Col>
+        
         <Col md={2}>
           <CustomInput
+            id="null"
             type='select'
             value={pageSize}
             onChange={onChangeInSelect}
